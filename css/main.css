@@ -37,6 +37,19 @@ header > ul > li {
 	margin: 0px 8px;
 	display:inline-block;
 	letter-spacing: 1px;
+	padding-right: 23px;
+}
+
+header > ul > li:hover {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: #128F76;
+	float: right;
+	list-style-type: none;
+	margin: 0px 8px;
+	display:inline-block;
+	letter-spacing: 1px;
+	cursor:pointer;
 }
 
 
@@ -374,7 +387,19 @@ div.info-column-container > div.info-column > p > a:hover {
 }
 
 .icon-container {
-	background: red;
+	width:100%;
+	height: 100px;
+	box-sizing: border-box;
+	padding:20px 0px 0px 30px;
+	margin:0px;
+}
+
+.icon-container i {
+	color:white;
+	font-size: 17px;
+	padding: 17px 17px;
+	border: 1.5px solid white;
+	border-radius: 100%;
 }
 
 /*footer*/
