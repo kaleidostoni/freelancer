@@ -10,7 +10,7 @@
 <body>
 
 
-<!--nav bar-->
+<!--header-->
 	<header>
 		<span id="title" class="text-uppercase">start bootstrap</span>
 
@@ -26,9 +26,17 @@
 	<section class="profile">
 		<div><img src="assets/images/profile.png" alt="profile-icon"></div>
 
-		<div><p class="text-uppercase first">start bootstrap</p></div>
+		<div>
+			<p class="text-uppercase first">start bootstrap</p>
+		</div>
 
-		<div class="star-one"><hr class="white-line"><i class="fa fa-star fa-2x white-star" aria-hidden="true"></i><hr class="white-line"></div>
+		<div class="star-container">
+			<div class="white-star">
+				<hr class="white-line">
+				<i class="fa fa-star fa-2x w-star-icon" aria-hidden="true"></i>
+				<hr class="white-line">
+			</div>
+		</div>
 
 		<div><p class="second">Web Developer - Graphic Artist - User Experience Designer</p></div>
 	</section>
@@ -38,7 +46,13 @@
 	<section class="portfolio">
 		<div><p class="text-uppercase">portfolio</p></div>
 
-		<div class="star-two"><hr class="black-line"><i class="fa fa-star fa-2x black-star" aria-hidden="true"></i><hr class="black-line"></div>
+		<div class="star-container">
+			<div class="blue-star">
+				<hr class="blue-line">
+				<i class="fa fa-star fa-2x b-star-icon" aria-hidden="true"></i>
+				<hr class="blue-line">
+			</div>
+		</div>
 
 		<section class="portfolio-first-row">
 			<div class="images"> <img src="assets/images/portfolio/cabin.png" alt=""> </div>
@@ -55,7 +69,13 @@
 	<section class="about">
 		<div><p class="text-uppercase about-title">about</p></div>
 
-		<div class="star-three"><hr class="white-line"><i class="fa fa-star fa-2x white-star" aria-hidden="true"></i><hr class="white-line"></div>
+		<div class="star-container">
+			<div class="white-star">
+				<hr class="white-line">
+				<i class="fa fa-star fa-2x w-star-icon" aria-hidden="true"></i>
+				<hr class="white-line">
+			</div>
+		</div>
 
 		<div class="about-text">
 			<div class="at-1">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization</div>
@@ -75,11 +95,12 @@
 	<section  class="contact">
 		<div><p class="text-uppercase">contact me</p></div>
 
-		<div>
-			<div class="star-two">
-			<hr class="black-line">
-			<i class="fa fa-star fa-2x black-star" aria-hidden="true"></i>
-			<hr class="black-line"></div>
+		<div class="star-container">
+			<div class="blue-star">
+				<hr class="blue-line">
+				<i class="fa fa-star fa-2x b-star-icon" aria-hidden="true"></i>
+				<hr class="blue-line">
+			</div>
 		</div>
 
 		<form action="">
@@ -108,12 +129,12 @@
 			</div>
 			<div class="info-column">
 				<h2>AROUND THE WEB</h2>
-				<div>
-					<i class="social-media" class="fa fa-facebook" aria-hidden="true"></i>
-					<i class="social-media" class="fa fa-google-plus" aria-hidden="true"></i>
-					<i class="social-media" class="fa fa-twitter" aria-hidden="true"></i>
-					<i class="social-media" class="fa fa-linkedin" aria-hidden="true"></i>
-					<i class="social-media" class="fa fa-dribbble" aria-hidden="true"></i>
+				<div clas="icon-container">
+					<i class="fa fa-facebook" aria-hidden="true"></i>
+					<i class="fa fa-google-plus" aria-hidden="true"></i>
+					<i class="fa fa-twitter" aria-hidden="true"></i>
+					<i class="fa fa-linkedin" aria-hidden="true"></i>
+					<i class="fa fa-dribbble" aria-hidden="true"></i>
 				</div>
 			</div>
 			<div class="info-column">
